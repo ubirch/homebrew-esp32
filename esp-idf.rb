@@ -5,9 +5,9 @@
 class EspIdf < Formula
   desc "ESP-IDF"
   homepage "https://github.com/espressif/esp-idf"
-  url "https://github.com/espressif/esp-idf.git", :using => :git, :branch => :master
+  url "https://github.com/espressif/esp-idf.git", :branch => :master
   depends_on "xtensa-esp32-elf"
-  depends_on "python@2" => ['pyserial']
+  # depends_on "python@2" => ['pyserial']
 
   def install
     ENV.deparallelize
