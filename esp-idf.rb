@@ -1,8 +1,8 @@
 class EspIdf < Formula
   desc "ESP-IDF"
   homepage "https://github.com/espressif/esp-idf"
-  url "https://github.com/espressif/esp-idf/releases/download/v3.0.3/esp-idf-v3.0.3.zip"
-  sha256 "b92d0ffe24f5b94666f56e438f9dce642bc9eec6e34988049fea9cab60a06afd"
+  url "https://github.com/espressif/esp-idf/releases/download/v3.1.1/esp-idf-v3.1.1.zip"
+  sha256 "93f1a4d6349436728b51b6a73912e43975c4156fd88a8d1018c88f26b8af0e11"
   depends_on "xtensa-esp32-elf"
   depends_on "python"
 
