@@ -1,7 +1,7 @@
 class EspIdf < Formula
   desc "ESP-IDF"
   homepage "https://github.com/espressif/esp-idf"
-  head "https://github.com/espressif/esp-idf", :using => :git, :tag => "v3.2"
+  url "https://github.com/espressif/esp-idf", :using => :git, :tag => "v3.2"
   depends_on "xtensa-esp32-elf"
   depends_on "python"
 
